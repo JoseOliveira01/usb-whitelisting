@@ -1,0 +1,31 @@
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\bin\Debug\USB_Firewall_v1.exe.config
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\bin\Debug\USB_Firewall_v1.exe
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\bin\Debug\USB_Firewall_v1.pdb
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.csprojResolveAssemblyReference.cache
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.Properties.Resources.resources
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.csproj.GenerateResource.Cache
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.exe
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.pdb
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.Devices.resources
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.usbfirewall_form.resources
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.PendingDevices.resources
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.Processes.resources
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.Settings.resources
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.AutoPlay.resources
+C:\Users\laptop\Desktop\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.DetailedInfo.resources
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\bin\Debug\USB_Firewall_v1.exe.config
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\bin\Debug\USB_Firewall_v1.exe
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\bin\Debug\USB_Firewall_v1.pdb
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.AutoPlay.resources
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.DetailedInfo.resources
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.PendingDevices.resources
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.Processes.resources
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.Devices.resources
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.usbfirewall_form.resources
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.Properties.Resources.resources
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.Settings.resources
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.exe
+C:\Users\User\Documents\Work\Firewall USB\FIREWALL USB\FinalProject\USB_Firewall_v1\USB_Firewall_v1\obj\Debug\USB_Firewall_v1.pdb
