@@ -175,7 +175,6 @@ namespace USB_Firewall_v1
 
             // Get Settings panel
             Settings.Instance.BringToFront();
-            //MessageBox.Show("Currently on development");
         }
 
 
