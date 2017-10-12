@@ -53,22 +53,13 @@ namespace USB_Firewall_v1
             this.device = p;
             label_deviceinfo.Text = device.Name;
 
-            //if (!SearchINFFolder()) SearchDriverForDevice(ALTERNATIVEDRIVERPATH);
-
-            //SearchINFFolder();
-            //SearchDriverForDevice(ALTERNATIVEDRIVERPATH);
-
                                                                                         
             possibledrivers.Items.AddRange((DriverInstall.Instance.GetInf(device)).ToArray());
             possibledrivers.SelectedIndex = 0;
 
             FilterResults();
             ReAnalyzeFile();
-
-            /*driver = new Driver();
-            foreach (var d in driver.SearchDriverForDevice(p))
-                possibledrivers.Items.Add(d);    */
-
+            
         }
 
         void FilterResults()
@@ -91,81 +82,7 @@ namespace USB_Firewall_v1
             //if (possibledrivers.Items.Count > 0) possibledrivers.SelectedIndex = possibledrivers.Items.Count - 1;
         }
 
-
-        /*private void SearchDriverForDevice(string s)
-        {                           
-            DirectoryInfo dinfo = new DirectoryInfo(s);
-            DirectoryInfo[] directories = dinfo.GetDirectories();                
-
-            foreach (var directory in directories)
-            {
-                //Console.WriteLine("Scanning " + directory.FullName);
-                ScanDirectory(directory);                
-            }    
-            
-               // if (line.Contains("Class ")) _class += "Class: " + line.Substring(line.LastIndexOf('=') + 1) + "\n";
-               //          if (line.Contains("Svcdesc ")) _svcdesc += "Svcdesc " + line.Substring(line.LastIndexOf('=') + 1) + "\n";
-             
-        }
-
-        bool SearchINFFolder()
-        {
-            d = new DirectoryInfo(DRIVERPATH);
-
-            ScanDirectory(d);
-
-            if (possibledrivers.Items.Count > 0) return true;
-            else return false;        
-        }
-
-        void ScanDirectory(DirectoryInfo directory)
-        {
-            foreach (var file in directory.GetFiles("*.inf"))
-            {                
-                Console.WriteLine("Scanning: " + file.FullName);
-                foreach (var line in File.ReadAllLines(file.FullName))
-                {          
-
-                    // Search for Hardware ID
-                    foreach (string hwid in device.HardwareID)
-                    {
-                        if (line.Contains(hwid))
-                        {
-                            // This file contains device compatibleID, this can be the right driver
-                            compatibleDriver = file.FullName;
-                            Console.WriteLine("»»»»»»»» FOUND COMPATIBLE DRIVER -> " + file.FullName + " (hardware id)");
-                            possibledrivers.Items.Add(file.FullName);
-                            listBox1.Items.Add(file.FullName);
-
-                            ReAnalyzeFile(file);
-                            return;
-                        }
-                    }
-
-                    // Search for Compatible ID
-                    foreach (string cmid in device.CompatibleID)
-                    {
-                        if (line.Contains(cmid))
-                        {
-                            // This file contains device compatibleID, this can be the right driver
-                            compatibleDriver = file.FullName;
-                            Console.WriteLine("»»»»»»»» FOUND COMPATIBLE DRIVER -> " + file.FullName + " (compatible id)");
-                            possibledrivers.Items.Add(file.FullName);
-                            listBox1.Items.Add(file.FullName);        
-
-                            ReAnalyzeFile(file);
-                        }
-                    }
-
-                    
-
-                }
-            }
-                
-        }
-        */
-
-        //void ReAnalyzeFile(FileInfo file)
+        
         void ReAnalyzeFile()
         {
             FileInfo file = new FileInfo(possibledrivers.Text);
@@ -260,31 +177,14 @@ namespace USB_Firewall_v1
 
 
         }
-                   
-        /*[DllImport("NewDev.dll", CharSet = CharSet.Auto, EntryPoint = "UpdateDriverForPlugAndPlayDevices")]
-        [SecurityCritical]
-        [return: MarshalAs(UnmanagedType.Bool)]
-        internal extern static bool UpdateDriverForPlugAndPlayDevices
-            (
-                IntPtr hwndParent,
-                [MarshalAs(UnmanagedType.LPWStr)]String szHardwordID,
-                [MarshalAs(UnmanagedType.LPWStr)]String szINFName,
-                uint installFlags, 
-                IntPtr bRebootRequired
-            ); */
-
+                 
         // This function is responsible for installing driver for device IF allowed
         private void InstallDriver()
         {
             try
             {
-                //UpdateDriverForPlugAndPlayDevices(IntPtr.Zero, device.HardwareID[0], compatibleDriver, 1, IntPtr.Zero); 
-                //Console.WriteLine("ERROR::::" + Marshal.GetLastWin32Error());
-
                 Console.WriteLine("Installing...");
                 DriverInstall.Instance.InstallDriver(device.HardwareID[0], compatibleDriver);
-
-                //throw new Exception();
             }
             catch (Exception ex)
             {
